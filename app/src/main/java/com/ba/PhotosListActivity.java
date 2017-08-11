@@ -36,7 +36,7 @@ public class PhotosListActivity extends BaseActivity {
     public void initComponent() {
 
         recyclerID = (RecyclerView) findViewById(R.id.recyclerID);
-        recyclerID.setLayoutManager(getLayoutManager(2,2));
+        recyclerID.setLayoutManager(getLayoutManager(2,1));
         recyclerID.setNestedScrollingEnabled(false);
     }
 
